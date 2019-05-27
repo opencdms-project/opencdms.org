@@ -22,6 +22,41 @@
   <link href="css/grayscale.min.css" rel="stylesheet">
 
   <style>
+    .projects-section .featured-text-right {
+      padding: 2rem;
+    }
+
+    @media (min-width: 992px) {
+      .projects-section .featured-text-right {
+        padding: 0 2rem 0 0;
+        border-right: 0.5rem solid #64a19d;
+      }
+    }
+ 
+ 
+    .carousel-control-prev-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+    }
+
+    .carousel-control-next-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+    }
+     
+    .carousel-indicators li {
+      background-color: #999;
+      background-color: rgba(70, 70, 70, 0.25);
+    }
+
+    .carousel-indicators .active {
+      background-color: #444;
+    }
+
+ 
+    .carousel-inner {
+        height: 380px;
+        overflow: hidden;
+    }
+
 /*
   .masthead h1 {
 	font-family: 'Varela Round';
@@ -60,17 +95,21 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About</a>
-          </li>
-          
-          <!--
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+            <a class="nav-link js-scroll-trigger" href="#home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#signup">Contact</a>
+            <a class="nav-link js-scroll-trigger" href="#summary">Summary</a>
           </li>
-          -->
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#background">Background</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#approach">Approach</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+          </li>
  
         </ul>
       </div>
@@ -78,26 +117,27 @@
   </nav>
 
   <!-- Header -->
-  <header class="masthead">
+  <header class="masthead" id="home">
     <div class="container d-flex h-100 align-items-center">
       <div class="mx-auto text-center">
         <h1 class="mx-auto my-0">OpenCDMS</h1><!-- removed class text-uppercase -->
         <h2 class="text-white-50 mx-auto mt-2 mb-5">Climate and Hydrology Data Management System</h2>
-        <a href="#about" class="btn btn-primary js-scroll-trigger">More Information</a>
+        <a href="#summary" class="btn btn-primary js-scroll-trigger">More Information</a>
       </div>
     </div>
   </header>
 
-  <!-- About Section -->
-  <section id="about" class="about-section text-center">
+  <!-- Background Section -->
+  <section id="summary" class="about-section text-center">  
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
-          <h2 class="text-white mb-4">OpenCDMS</h2>
+          <h2 class="text-white mb-4">OpenCDMS Summary</h2>
           <p class="text-white-50">
             OpenCDMS is a Reference Open Source Data Management System for atmospheric, hydrological, marine, phenological, composition and other environmental data with a time-series component. It stores observational data concerning water, weather, hydrology and climate in a secure and flexible manner and enables extracting useful information from the data.
-          </p>
-          <p class="text-white-50">
+            
+            <br/><br/>
+            
             OpenCDMS is intended to be used by the National Meteorological and Hydrological Services (NMHS) of WMO Members, and by any others wishing to use best-practices in managing and using these data.
           </p>
 <!--
@@ -110,17 +150,211 @@
       <!--<img src="img/ipad.png" class="img-fluid" alt="">-->
     </div>
   </section>
+  
+
+  <section id="background" class="projects-section bg-light">
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="5000">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+        
+            <div class="container">
+              <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+                <div class="col-xl-6 col-lg-7 d-flex justify-content-center">
+                  <img class="img-fluid mb-3 mb-lg-0" src="img/cdms_key_entry.png" alt="">
+                </div>
+                <div class="col-xl-6 col-lg-5">
+                  <div class="featured-text text-center text-lg-left">
+                    <h4>What is a CDMS?</h4>
+                    <p class="text-black-100 mb-0" style="padding-bottom:8px;">
+                        At it’s most basic, a CDMS allows users to manually enter observation data into a database.
+                    </p>
+                    <p>
+                        A CDMS may have many other functions, including:
+                    </p>
+                    <p class="text-black-50 mb-0">
+                        <ul>
+                            <li>Performing quality control (QC)
+                            <li>Managing metadata
+                            <li>Retrieving data from automatic weather stations
+                            <li>Defining and creating products
+                            <li>Import, export and back up
+                            <li>Managing users
+                        </ul>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+        
+        
+        
+          <!--<img class="d-block w-100" src="img/wmo_1131_cover.png" alt="First slide">-->
+        </div>
+
+        <div class="carousel-item">
+            <div class="container"> 
+              <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+                <div class="col-xl-6 col-lg-5">
+                  <div class="featured-text-right text-center text-lg-left">
+                    <h4>Distribution of CDMS</h4>
+                    <p class="text-black-100 mb-0" style="padding-bottom:8px;">
+                        Currently there is a very fragmented approach to CDMS development globally. 
+                    </p>
+                    <p class="text-black-100 mb-0">
+                        Many solutions have been developed using short-term intermittent funding and often the CDMS software is only developed and maintained by one or two people.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-xl-6 col-lg-7 d-flex justify-content-center">
+                  <img class="img-fluid mb-3 mb-lg-0" src="img/distributions_of_cdms.png" alt="">
+                </div>
+              </div>
+            </div>   
+
+            <!--<img class="d-block w-100" src="img/wmo_1131_cover.png" alt="Second slide">-->
+        </div>
+
+
+        <div class="carousel-item">
+
+        <div class="container"> 
+      
+          <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+            <div class="col-xl-6 col-lg-7 d-flex justify-content-center">
+              <img class="img-fluid mb-3 mb-lg-0" src="img/wmo_1131_cover.png" alt="">
+            </div>
+            <div class="col-xl-6 col-lg-5">
+              <div class="featured-text text-center text-lg-left">
+                <h4>WMO Compliant CDMS</h4>
+                    <p class="text-black-100 mb-0" style="padding-bottom:8px;">
+                        A WMO compliant CDMS meets all of the required sections of the CDMS Specifications.
+                    </p>
+                    <p class="text-black-100 mb-0">
+                        The OpenCDMS Initiative is working towards being able to offer compliance testing and certification in the future.
+                    </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+            <!--<img class="d-block w-100" src="img/wmo_1131_cover.png" alt="Third slide">-->
+        </div>
+      </div>
+
+
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    
+  </section>
+  
+
+
+
+
+  <section id="approach" class="bg-light" style="padding-bottom: 160px">
+
+    <div class="container">
+
+      <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+        <div class="col-xl-6 col-lg-7 d-flex justify-content-center">
+          <img class="img-fluid mb-3 mb-lg-0" src="img/opencdms_approach.png" alt="">
+        </div>
+        <div class="col-xl-6 col-lg-5">
+          <div class="featured-text text-center text-lg-left">
+            <h4>Approach</h4>
+            <p class="text-black-100 mb-0" style="padding-bottom:8px;">
+                To help ensure that OpenCDMS is a success, and to expedite the development, we are taking the following approach:
+            </p>
+            <p class="text-black-100 mb-0" style="padding-bottom:8px;">
+              <ul>
+                <li>Reuse the best components of existing open source systems where possible (and appropriate)
+                <li>Require that access to the database is via an interface that enforces the core 'business logic' of the CDMS
+                <li>Develop a new modern interface to improve user experience
+              </ul>
+            </p>
+          </div>
+        </div>
+      </div>
 
   
+  </section>
   
   
-  
- 
+    <!-- Contact Section -->
+  <section id="contact" class="contact-section bg-black">
+    <div class="container">
 
+      <div class="row">
+        <div class="col-md-4 mb-3 mb-md-0">
+<!--
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+
+              <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+              <h4 class="text-uppercase m-0">Address</h4>
+              <hr class="my-4">
+              <div class="small text-black-50">4923 Market Street, Orlando FL</div>
+            </div>
+          </div>
+-->
+      </div>
+
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <i class="fas fa-envelope text-primary mb-2"></i>
+              <h4 class="text-uppercase m-0">Email</h4>
+              <hr class="my-4">
+              <div class="small text-black-50">
+                <a>info@opencdms.org</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3 mb-md-0">
+<!--
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <i class="fas fa-mobile-alt text-primary mb-2"></i>
+              <h4 class="text-uppercase m-0">Phone</h4>
+              <hr class="my-4">
+              <div class="small text-black-50">+1 (555) 902-8832</div>
+            </div>
+          </div>
+-->
+        </div>
+
+      </div>
+
+      <div class="social d-flex justify-content-center">
+        <a href="http://www.twitter.com/opencdms" class="mx-2">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="http://www.github.com/opencdms" class="mx-2">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+
+</section>
+  
   <!-- Footer -->
   <footer class="bg-black small text-center text-white-50">
     <div class="container">
-      <!-- Copyright &copy; Your Website 2019 -->
+      Copyright &copy; OpenCDMS Initiative 2019
     </div>
   </footer>
 
