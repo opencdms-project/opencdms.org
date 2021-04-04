@@ -1,0 +1,79 @@
+# TODO: set up analytics
+
+site_name: OpenCDMS
+copyright: Copyright &copy; 2020 - 2021 <a href="https://openwis.github.io/openwis-documentation/">OpenWIS Association AISBL</a>
+
+theme:
+  name: material
+  logo: assets/favicon.png
+  custom_dir: material
+  features:
+    - navigation.instant
+    - navigation.sections
+    # - navigation.tabs  # we have our own custom hard-coded version
+  palette:
+    scheme: default
+    primary: black
+    accent: white
+  favicon: assets/favicon.png
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - meta
+  - toc:
+      permalink: true
+
+plugins:
+  - include-markdown
+
+extra:
+  social:
+    - icon: fontawesome/regular/envelope
+      link: /about/contact/
+      target: _self
+    - icon: fontawesome/brands/github
+      link: https://github.com/opencdms/
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/opencdms
+    - icon: fontawesome/brands/medium
+      link: https://medium.com/opencdms
+    - icon: fontawesome/brands/docker 
+      link: https://hub.docker.com/orgs/opencdms/repositories
+
+nav:
+  - Overview: about/overview.md
+  - Getting Involved: about/get-involved.md
+  - About:
+    - History: about/history.md
+    - Funding: 
+      - ACP Project: about/funding/acp_project.md
+#      - WMO Funding: about/funding/wmo.md
+    - License: about/license.md  
+    - Frequently asked questions: about/faq.md
+    - Glossary: about/glossary.md
+    - Contact: about/contact.md
+  - Approach:
+    - approach/principle-aims.md
+    - approach/governance.md
+    - approach/roadmap.md
+    - approach/architecture.md
+    - approach/cloud.md
+    - Groups:
+      - approach/groups/project_management_committee.md
+      - approach/groups/project_advisory_team.md
+      - approach/groups/project_technical_team.md
+      - Sub-groups:
+        - approach/groups/sub-group/comms-sg.md
+      - Working groups:
+        - approach/groups/working-group/apreq-wg.md
+        - approach/groups/working-group/dmr-wg.md
+        - approach/groups/working-group/dms-wg.md
+        - approach/groups/working-group/ipl-wg.md
+        - approach/groups/working-group/swa-wg.md
+  - Documentation: documentation/temporary-page.md
+#    - User guide:
+#      - Getting started: documentation/user-guide/index.md
+#    - Developer documentation:
+#      - Getting involved: documentation/developer-guide/index.md
+#    - Standards documentation: documentation/standards-docs/index.md

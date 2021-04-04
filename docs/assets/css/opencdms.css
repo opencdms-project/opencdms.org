@@ -1,0 +1,87 @@
+/* Temporary: `-hide: toc` is not working */
+.md-sidebar--secondary .md-sidebar__scrollwrap {
+    display: none !important;
+}
+
+
+/* At 1220 pixels, the @media layout starts to prevent the sidebar menu from being shown
+   a quick workaround is to set max-width to 1219px  (DOESN'T WORK)
+*/
+.md-grid {
+    /*max-width: 800px;*/
+}
+
+.md-header {
+    background-color: #555 !important;
+}
+
+
+/* Always display the menu icon 
+a .md-header__button {
+    display: inline-block !important;
+}*/
+
+/* sidebar show button not aligning properly */
+.md-header__button {
+    vertical-align: top !important;
+}
+
+.opencdms-show {
+    display: inline-block !important;
+}
+
+.md-sidebar {
+    display: block !important;
+}
+
+/* Moving the menu sidebar icon to the left of the new menubar requires the new menubar to be inline-block */
+.md-tabs__list {
+    display: inline-block !important;
+}
+
+/* _____________________ */
+
+.simple-alert {
+	color: #222;
+	font-size: 16px;
+	line-height: 22px;
+	position: relative;
+	overflow: hidden;
+}
+
+.simple-alert span {
+	background: #fff;
+	border: 2px solid rgba(0, 0, 0, .3);
+	border-radius: 5px;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, .2);
+	box-sizing: border-box;
+	display: block;
+	margin: 0 auto 20px auto;
+	padding: 10px;
+	position: relative;
+    text-align: center;
+ }
+
+.simple-alert-red span {
+	background-color: #FF5252;
+	border-color: #FF1744;
+	color: #fff;
+}
+
+.simple-alert-blue span {
+	background-color: #64B5F6;
+	border-color: #2196F3;
+	color: #fff;
+}
+
+.simple-alert-green span {
+	background-color: #9CCC65;
+	border-color: #7CB342;
+	color: #fff;
+}
+
+.simple-alert-orange span {
+	background-color: #FFA726;
+	border-color: #FB8C00;
+	color: #fff;
+}
