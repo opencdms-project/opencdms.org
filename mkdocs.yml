@@ -47,7 +47,7 @@ nav:
   - About:
     - History: about/history.md
     - Funding: 
-      - ACP Project: about/funding/acp_project.md
+      - ACP Project: about/funding/acp-project.md
 #      - WMO Funding: about/funding/wmo.md
     - License: about/license.md  
     - Frequently asked questions: about/faq.md
@@ -60,9 +60,9 @@ nav:
     - approach/architecture.md
     - approach/cloud.md
     - Groups:
-      - approach/groups/project_management_committee.md
-      - approach/groups/project_advisory_team.md
-      - approach/groups/project_technical_team.md
+      - approach/groups/project-management-committee.md
+      - approach/groups/project-advisory-team.md
+      - approach/groups/project-technical-team.md
       - Sub-groups:
         - approach/groups/sub-group/comms-sg.md
       - Working groups:

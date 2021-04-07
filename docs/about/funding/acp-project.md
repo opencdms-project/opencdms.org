@@ -13,4 +13,4 @@ The requirements gathering exercise in activity 2.4.1 has been completed by the 
 
 <!-- TODO -->
 
-Initial work to design and test an Open Source CDMS for activity 2.4.2 has begun in the [Project Technical Team (PTT)](/groups/project_technical_team) with responsibility for delivery falling to different working groups therein.
+Initial work to design and test an Open Source CDMS for activity 2.4.2 has begun in the [Project Technical Team (PTT)](/approach/groups/project-technical-team) with responsibility for delivery falling to different working groups therein.
