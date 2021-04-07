@@ -3,9 +3,9 @@
 <!-- TODO: add missing illustration, preferably using mermaid diagrams
      https://squidfunk.github.io/mkdocs-material/reference/diagrams/#using-diagrams -->
 
-The OpenCDMS [Project Management Committee (PMC)](/groups/project_management_committee) was established in September 2020. At this time all members of the original OpenCDMS community automatically joined the Project Advisory Team.
+The OpenCDMS [Project Management Committee (PMC)](/approach/groups/project_management_committee) was established in September 2020. At this time all members of the original OpenCDMS community automatically joined the Project Advisory Team.
 
-The [Project Advisory Team (PAT)](/groups/project_advisory_team) provides an interface to external communities. The [Project Technical Team (PTT)](/groups/project_technical_team) takes requirements, works on the software design and oversees the implementation.
+The [Project Advisory Team (PAT)](/approach/groups/project_advisory_team) provides an interface to external communities. The [Project Technical Team (PTT)](/approach/groups/project_technical_team) takes requirements, works on the software design and oversees the implementation.
 
 The Project Management Committee performs a mediation role, resolving any disputes that may arise and reporting progress to the OpenWIS Association <!-- TODO: see Figure above -->
 

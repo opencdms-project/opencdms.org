@@ -16,7 +16,7 @@ The concept for OpenCDMS arose during work on the [Climate Data Management Syste
     - Investment is required to make this happen
 
 
-The OpenCDMS project was formerly established during a [workshop in mid-2019][3] and was [adopted as an official project][4] of the OpenWIS Association AISBL in May 2021.
+The OpenCDMS project was [adopted as an official project][4] of the OpenWIS Association AISBL in May 2021.
 
 The project originally encompassed two competing and conflicting approaches (previously referred to as “top-down” and “bottom-up”). The top-down approach aimed to begin by agreeing the necessary additional standards and design for a next-generation CDMS, with the system then being implemented as a new solution built on an entirely blank canvas. 
 
