@@ -11,8 +11,7 @@ The terms of reference for the PAT have not yet been defined but are likely to i
 3. Determining metrics to measure the success of the project and monitoring progress against metrics
 4. Ensuring that all activities align with the project’s principles and objectives
 
-<!-- TODO: link groups -->
-
+<!--
 ## Sub-groups
 
 - Communications sub-group (COMMS-SG)
@@ -21,6 +20,7 @@ The following additional sub-groups have been proposed:
 
 - Collaborations sub-group (COLLAB-SG)
 - Web site sub-group (WEB-SG)
+-->
 
 ## Working groups
 

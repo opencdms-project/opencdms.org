@@ -63,8 +63,8 @@ nav:
       - approach/groups/project-management-committee.md
       - approach/groups/project-advisory-team.md
       - approach/groups/project-technical-team.md
-      - Sub-groups:
-        - approach/groups/sub-group/comms-sg.md
+#      - Sub-groups:
+#        - approach/groups/sub-group/comms-sg.md
       - Working groups:
         - approach/groups/working-group/apreq-wg.md
         - approach/groups/working-group/dmr-wg.md
