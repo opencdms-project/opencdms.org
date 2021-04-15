@@ -35,7 +35,7 @@ The project is focused on the development and application of recommendations, be
 
 ### The OpenCDMS software
 
-The OpenCDMS software is a product of the OpenWIS Assocation. The goals below are all in alginment with the associations aim to: "facilitate collaboration on the development, promotion and sharing of open source software for the exchange of global meteorological information".
+The OpenCDMS software is a product of the OpenWIS Association. The goals below are all in alignment with the associations aim to: "facilitate collaboration on the development, promotion and sharing of open source software for the exchange of global meteorological information".
 
 <!--
 #### Goal 1: Reference Implementation
