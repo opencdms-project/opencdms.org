@@ -11,7 +11,7 @@ The initial Project Management Committee is comprised of:
 | Member of WMO SERCOM (ET-DRC) | Denis Stuber |
 | Project Technical Team representative | Ian Edwards |
 | CDMS user representative | Steve Palmer |
-| Hydrology User representative | Vasco Stojov |
+| Hydrology User representative | Vasko Stojov |
 | Future Project Stakeholder Group representative | Vacant |
 
 [1]: https://github.com/opencdms/opencdms-project/blob/master/charter/opencdms_charter.md
