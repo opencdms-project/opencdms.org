@@ -48,7 +48,6 @@ nav:
     - History: about/history.md
     - Funding: 
       - ACP Project: about/funding/acp-project.md
-#      - WMO Funding: about/funding/wmo.md
     - License: about/license.md  
     - Frequently asked questions: about/faq.md
     - Glossary: about/glossary.md
