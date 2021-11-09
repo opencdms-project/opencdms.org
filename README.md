@@ -18,4 +18,4 @@ To run the local development server, perform the following process:
 
 #### Deployment
 
-Create a PR to merge your changes to `main` branch of this repository, there is a CI script set up to handle deployment.
+Create a PR to merge your changes to `main` branch of this repository, there is a CI script set up to handle deployment (using GitHub Actions to run `mkdocs gh-pages` automatically).
