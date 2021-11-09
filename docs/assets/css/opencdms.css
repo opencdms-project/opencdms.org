@@ -1,5 +1,5 @@
 /* Temporary: `-hide: toc` is not working */
-.md-sidebar--secondary .md-sidebar__scrollwrap {
+.md-main__inner .md-sidebar--secondary {
     display: none !important;
 }
 
