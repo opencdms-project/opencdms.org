@@ -9,5 +9,3 @@ The remit of the Project Technical Team (PTT) is to oversee the development of t
 - Manage the agile development process including owning the product backlog
 - Requirements management
 - Technical design and architecture
-
-[1]: http://openwis.github.io/openwis-documentation/howto/2016-10-11-OpenWIS-Kanban-Process.html
