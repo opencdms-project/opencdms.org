@@ -10,18 +10,3 @@ The terms of reference for the PAT have not yet been defined but are likely to i
 2. Reviewing policies and practices of partner organisations and reporting how these impact on the project
 3. Determining metrics to measure the success of the project and monitoring progress against metrics
 4. Ensuring that all activities align with the project’s principles and objectives
-
-<!--
-## Sub-groups
-
-- Communications sub-group (COMMS-SG)
-
-The following additional sub-groups have been proposed:
-
-- Collaborations sub-group (COLLAB-SG)
-- Web site sub-group (WEB-SG)
--->
-
-## Working groups
-
-- ACP Requirements Working Group (APREQ-WG)
