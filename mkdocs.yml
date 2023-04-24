@@ -54,7 +54,7 @@ nav:
     - Contact: about/contact.md
   - Approach:
     - approach/principle-aims.md
-    - approach/governance.md
+    # - approach/governance.md
     - approach/roadmap.md
     - approach/architecture.md
     - Groups:
@@ -62,4 +62,3 @@ nav:
       - approach/groups/project-advisory-team.md
       - approach/groups/project-standards-team.md
       - approach/groups/project-technical-team.md
-  - Documentation: documentation/temporary-page.md
