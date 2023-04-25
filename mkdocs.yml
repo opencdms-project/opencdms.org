@@ -56,7 +56,7 @@ nav:
     - approach/principle-aims.md
     # - approach/governance.md
     - approach/roadmap.md
-    - approach/architecture.md
+    # - approach/architecture.md
     - Groups:
       - approach/groups/project-management-committee.md
       - approach/groups/project-advisory-team.md
