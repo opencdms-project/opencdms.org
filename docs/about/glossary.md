@@ -10,6 +10,10 @@ In the context of Climate Data Management Systems (CDMS), the term “climate”
 
 [https://gcos.wmo.int/en/essential-climate-variables](https://gcos.wmo.int/en/essential-climate-variables)
 
+### Climate Data Model (CDM) Standard
+ 
+OpenCDMS is a Reference Implementation of the WMO Climate Data Model (CDM) Standard which standardizes the representation, exchange and archival of climate data. The CDM is developed an managed by the WMO [Task Team on Climate Data Management](https://github.com/wmo-im/tt-cdm/blob/main/README.md)
+
 ### Climate Data Management System (CDMS)
 
 A CDMS is defined in the WMO Climate Data Management System Specifications as "an integrated computer-based system that facilitates the effective archival, management, analysis, delivery and utilization of a wide range of integrated climate data".
