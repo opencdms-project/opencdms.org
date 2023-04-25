@@ -1,9 +1,16 @@
 The OpenCDMS Project continues to need assistance with software development.
 
-The main programming languages used are Python and R.
+##### Front end
+
+The [opencdms-app](https://github.com/opencdms/opencdms-app) web-based user interface is being developed using VueJS 3 and Vuetify 3. We would welcome any developers willing to help with development using these frameworks.
+
+##### Back end
+
+The core [opencdms](https://github.com/opencdms/opencdms) sofware that runs server-side is predominantly writting using Python with additional plugin processes developed in other languages including R.
+
 Experience, or an interest in, SQLAlchemy, Flask or Pandas would also be useful.
 
-Additionally, the opencdms-app web-based user interface is being developed using VueJS and Vuetify.
+##### System admin
 
 We would also welcome help with system adminstation including Linux, Docker and PostgreSQL / TimescaleDB.
 
