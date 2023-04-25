@@ -2,13 +2,15 @@
 
 ### What is OpenCDMS?
 
-OpenCDMS is a framework for working together to improve Earth system data management by: 
+OpenCDMS is predominantly a Reference Implementation of the [WMO Climate Data Model](https://github.com/wmo-im/tt-cdm/blob/main/README.md) standard.
 
-- Improving interoperability among existing CDMSs  
+In addition, it provides a framework for working together to improve Earth system data management by: 
+
+- Improving interoperability among existing CDMSs  
 
 - Supporting and collaborating with existing projects with the intention of ensuring CDMS users continue to benefit from their existing support structures and services
 
-- Creating a reference implementation for a fully compliant next-generation CDMS, with guidance from WMO expert teams and a broad range of implementers, adhering to the wider WMO data management approach and modern IT standards and practices
+- Creating a next-generation CDMS that is fully compliant with the WMO Climate Data Management System Specifications, adhering to the wider WMO data management approach and modern IT standards and practices, with guidance from WMO expert teams and a broad range of implementers
 
 ### What types of data will OpenCDMS enable collection of?
 
@@ -24,9 +26,9 @@ Furthermore, hydrological models and/or warnings need several types of variables
 
 OpenCDMS will be an installable software package available for those Members of WMO, and other organisations, who wish to use; as well as acting as a reference system incorporating best-practice standards. The OpenCDMS project will work to support, and collaborate with, existing projects with the intention of ensuring CDMS users continue to benefit from existing support structures and services.
 
- ### Our country has developed a CDMS. Can we collaborate with OpenCDMS?
+### Our country has developed a CDMS. Can we collaborate with OpenCDMS?
 
- Yes! The OpenCDMS project already has input from a number of colleagues involved with CDMS developments across the world, and we are keen to engage with those who have developed software to see how we can collaborate with, and support, existing developments.
+Yes! The OpenCDMS project already has input from a number of colleagues involved with CDMS developments across the world, and we are keen to engage with those who have developed software to see how we can collaborate with, and support, existing developments.
 
 ### I would like to get involved in the OpenCDMS development – how can I do this?
 
